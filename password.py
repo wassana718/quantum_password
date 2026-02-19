@@ -34,6 +34,7 @@ def check_password(password):# check digit, uppercase and lowercase latter or sy
 # input from user 
 password = input("Enter password: ")
 
+# print password or suggest_
 if check_password(password):
     print("strong password ")
 
